@@ -1,0 +1,42 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#color-container {
+  height: 200px;
+  width: 200px;
+  border: solid black;
+}
+#color {
+  height: 165px;
+  width: 200px;
+}
+#text {
+  height: 35px;
+  /* border: solid yellow; */
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  font-size: 16px;
+  
+}
+#button {
+  height: 50px;
+  border: solid black 1px;
+  color: black;
+  border-radius: 20px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
